@@ -9,35 +9,37 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
-      {
-        "group": "Nested Group",
-        "icon": "book",
-        "pages": [
-          "quickstart",
-          {
-            "group": "Editing",
-            "icon": "pencil",
-            "pages": [
-              "installation",
-              "editor",
-              {
-                "group": "Nested group",
-                "icon": "code",
-                "pages": ["navigation", "code"]
-              }
-            ]
-          }
-        ]
-      }
-    ],
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
+            "pages": [
+              "index",
+              "quickstart",
+              "development",
+              {
+                "group": "Nested Group",
+                "icon": "book",
+                "pages": [
+                  "quickstart",
+                  {
+                    "group": "Editing",
+                    "icon": "pencil",
+                    "pages": [
+                      "installation",
+                      "editor",
+                      {
+                        "group": "Nested group",
+                        "icon": "code",
+                        "pages": ["navigation", "code"]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           },
           {
             "group": "Customization",
@@ -69,26 +71,26 @@
             "group": "API documentation",
             "pages": ["api-reference/introduction", "api-reference/test"]
           },
-      {
-        "group": "Nested Group",
-        "icon": "book",
-        "pages": [
-          "quickstart",
           {
-            "group": "Editing",
-            "icon": "pencil",
+            "group": "Nested Group",
+            "icon": "book",
             "pages": [
-              "installation",
-              "editor",
+              "quickstart",
               {
-                "group": "Nested group",
-                "icon": "code",
-                "pages": ["navigation", "code"]
+                "group": "Editing",
+                "icon": "pencil",
+                "pages": [
+                  "installation",
+                  "editor",
+                  {
+                    "group": "Nested group",
+                    "icon": "code",
+                    "pages": ["navigation", "code"]
+                  }
+                ]
               }
             ]
-          }
-        ]
-      },
+          },
           {
             "group": "Endpoint examples",
             "pages": [
