@@ -29,7 +29,7 @@
             ]
           }
         ]
-      },
+      }
     ],
     "tabs": [
       {
@@ -37,18 +37,11 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["index", "quickstart", "development"]
           },
           {
             "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "pages": ["essentials/settings", "essentials/navigation"]
           },
           {
             "group": "Writing content",
@@ -74,10 +67,7 @@
         "groups": [
           {
             "group": "API documentation",
-            "pages": [
-              "api-reference/introduction",
-              "api-reference/test"
-            ]
+            "pages": ["api-reference/introduction", "api-reference/test"]
           },
           {
             "group": "Endpoint examples",
