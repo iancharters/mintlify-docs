@@ -9,6 +9,28 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "groups": [
+      {
+        "group": "Nested Group",
+        "icon": "book",
+        "pages": [
+          "quickstart",
+          {
+            "group": "Editing",
+            "icon": "pencil",
+            "pages": [
+              "installation",
+              "editor",
+              {
+                "group": "Nested group",
+                "icon": "code",
+                "pages": ["navigation", "code"]
+              }
+            ]
+          }
+        ]
+      },
+    ],
     "tabs": [
       {
         "tab": "Guides",
