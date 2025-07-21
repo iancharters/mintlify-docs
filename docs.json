@@ -114,7 +114,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Dashboard x",
       "href": "https://dashboard.mintlify.com"
     }
   },
