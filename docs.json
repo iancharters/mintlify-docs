@@ -69,6 +69,26 @@
             "group": "API documentation",
             "pages": ["api-reference/introduction", "api-reference/test"]
           },
+      {
+        "group": "Nested Group",
+        "icon": "book",
+        "pages": [
+          "quickstart",
+          {
+            "group": "Editing",
+            "icon": "pencil",
+            "pages": [
+              "installation",
+              "editor",
+              {
+                "group": "Nested group",
+                "icon": "code",
+                "pages": ["navigation", "code"]
+              }
+            ]
+          }
+        ]
+      },
           {
             "group": "Endpoint examples",
             "pages": [
